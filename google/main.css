@@ -1,0 +1,125 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+body {
+  background-color: #f7f8fc;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  background-color: white;
+
+  width: 800px;
+  box-shadow: 1px 10px 50px 2px rgba(0, 0, 0, 0.719);
+}
+.left-side {
+  display: flex;
+  flex-direction: column;
+  border-right: 2px solid #eee;
+  padding: 3rem;
+  width: 90%;
+}
+.login-title {
+  margin: 0rem 1.5rem;
+}
+.login-page {
+  text-align: center;
+  border: 1px solid #eee;
+  padding: 0.5rem 1rem;
+  width: fit-content;
+  margin-left: 1.5rem;
+  margin-bottom: 1rem;
+}
+small {
+  text-align: center;
+}
+.login-info {
+  display: grid;
+  gap: 0.5rem;
+}
+.email,
+.password {
+  padding: 0.5rem;
+}
+.label-email {
+  font-weight: 500;
+}
+.label-password {
+  font-weight: 500;
+}
+.remember-me {
+  padding-bottom: 1rem;
+  margin-top: 0.8rem;
+  display: flex;
+  justify-content: space-between;
+}
+.remember {
+  font-weight: 400;
+  font-size: 1rem;
+  color: gray;
+}
+.checkbox {
+  display: inline-block;
+}
+
+.remember-checkbox {
+  cursor: pointer;
+}
+.forgot a {
+  text-decoration: none;
+  color: #4c8bf5;
+  font-size: 0.9rem;
+}
+#btn-main {
+  padding-bottom: 1rem;
+}
+.btn {
+  width: 100%;
+  padding: 0.5rem 1rem;
+  color: white;
+  background-color: #222;
+  border: 1px solid #222;
+  border-radius: 0.5rem;
+}
+.account {
+  padding-top: 1.5rem;
+  text-align: center;
+}
+.account a {
+  color: #4c8bf5;
+  text-decoration: none;
+}
+/* right-side */
+.right-side {
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem;
+  padding-right: 2rem;
+  padding-top: 4rem;
+}
+.right {
+  color: #4c8bf5;
+  float: left;
+  padding-top: 0.1rem;
+}
+.titles {
+  font-weight: 500;
+  margin-left: 1.5rem;
+}
+.development,
+.features,
+.updates {
+  padding: 1.5rem;
+}
+.paragraph {
+  margin-left: 2.6rem;
+  line-height: 1.6;
+}
